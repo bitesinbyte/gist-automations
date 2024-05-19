@@ -378,6 +378,12 @@
         "currencyName": "Mauritius Rupee"
     },
     {
+        "symbolImage": "",
+        "currencyCode": "MAD",
+        "symbol": "DH",
+        "currencyName": "Moroccan Dirham"
+    },
+    {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
         "currencyCode": "MXN",
         "symbol": "$",

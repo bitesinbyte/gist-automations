@@ -55,6 +55,7 @@ public class GeoName
                 tempCountry.Flag = Url;
             }
 
+            tempCountry.Symbol = Currency.GetCurrency(tempCountry.Currency)?.Symbol ?? "";
             listOfCountry.Add(tempCountry);
         }
         return listOfCountry;
