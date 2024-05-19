@@ -1,13 +1,25 @@
 [
     {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol76-101-107.gif",
-        "currencyCode": "Lek",
+        "currencyCode": "LEK",
         "symbol": "ALL",
         "currencyName": "Albania Lek"
     },
     {
+        "symbolImage": "",
+        "currencyCode": "AMD",
+        "symbol": "֏",
+        "currencyName": "Armenian dram"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "AOA",
+        "symbol": "Kz",
+        "currencyName": "Angolan kwanza"
+    },
+    {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1547.gif",
-        "currencyCode": "Lek",
+        "currencyCode": "AFN",
         "symbol": "؋",
         "currencyName": "Afghanistan Afghani"
     },
@@ -34,6 +46,12 @@
         "currencyCode": "AZN",
         "symbol": "₼",
         "currencyName": "Azerbaijan Manat"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "DZD",
+        "symbol": "دج",
+        "currencyName": "Algerian dinar"
     },
     {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
@@ -64,6 +82,36 @@
         "currencyCode": "BMD",
         "symbol": "$",
         "currencyName": "Bermuda Dollar"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "BDT",
+        "symbol": "৳",
+        "currencyName": "Bangladeshi taka"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "XOF",
+        "symbol": "F.CFA",
+        "currencyName": "West African CFA franc"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "BIF",
+        "symbol": "FBu",
+        "currencyName": "Burundian franc"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "BTN",
+        "symbol": "Nu.",
+        "currencyName": "Bhutanese ngultrum"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "BHD",
+        "symbol": ".د.ب",
+        "currencyName": "Bahraini dinar"
     },
     {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36-98.gif",
@@ -156,6 +204,18 @@
         "currencyName": "Cuba Peso"
     },
     {
+        "symbolImage": "",
+        "currencyCode": "CVE",
+        "symbol": "$",
+        "currencyName": "Cape Verdean escudo"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "CDF",
+        "symbol": "FC",
+        "currencyName": "Congolese franc"
+    },
+    {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol75-269.gif",
         "currencyCode": "CZK",
         "symbol": "Kč",
@@ -168,7 +228,13 @@
         "currencyName": "Denmark Krone"
     },
     {
-        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol82-68-36.gif",
+        "symbolImage": "",
+        "currencyCode": "DJF",
+        "symbol": "Fdj",
+        "currencyName": "Djiboutian franc"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbolxs-page/symbols/curSymbol82-68-36.gif",
         "currencyCode": "DOP",
         "symbol": "RD$",
         "currencyName": "Dominican Republic Peso"
@@ -184,6 +250,12 @@
         "currencyCode": "EGP",
         "symbol": "£",
         "currencyName": "Egypt Pound"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "ERN",
+        "symbol": "Nkf",
+        "currencyName": "Eritrean nakfa"
     },
     {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
@@ -202,6 +274,12 @@
         "currencyCode": "FKP",
         "symbol": "€",
         "currencyName": "Falkland Islands (Malvinas) Pound"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "ETB",
+        "symbol": "ብር",
+        "currencyName": "Ethiopian birr"
     },
     {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
@@ -628,6 +706,12 @@
         "currencyCode": "USD",
         "symbol": "$",
         "currencyName": "United States Dollar"
+    },
+    {
+        "symbolImage": "",
+        "currencyCode": "AED",
+        "symbol": "DH",
+        "currencyName": "Arab Emirates Dirham"
     },
     {
         "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36-85.gif",
