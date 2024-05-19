@@ -22,7 +22,8 @@ jobs:
         run: dotnet build GistAutomation
 
       - name: run sync-country
-        run: dotnet run --project GistAutomation "sync-country"
+        run: dotnet run  "sync-country"
+        working-directory: ./GistAutomation
         env:
           COUNTRY_STATE_GIST_ID: ${{ secrets.COUNTRY_STATE_GIST_ID }}
           CURRENCY_GIST_ID: ${{ secrets.CURRENCY_GIST_ID }}
