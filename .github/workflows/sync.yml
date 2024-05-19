@@ -1,0 +1,36 @@
+name: Sync Data
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: dotnet build
+        working-directory: .
+        run: dotnet build GistAutomation
+
+      - name: run sync-country
+        run: dotnet run --project GistAutomation "sync-country"
+        env:
+          COUNTRY_STATE_GIST_ID: ${{ secrets.COUNTRY_STATE_GIST_ID }}
+          CURRENCY_GIST_ID: ${{ secrets.CURRENCY_GIST_ID }}
+          GIT_PERSONAL_TOKEN: ${{ secrets.GIT_PERSONAL_TOKEN }}
+
+      - name: run sync-currency
+        run: dotnet run --project GistAutomation "sync-currency"
+        env:
+          COUNTRY_STATE_GIST_ID: ${{ secrets.COUNTRY_STATE_GIST_ID }}
+          CURRENCY_GIST_ID: ${{ secrets.CURRENCY_GIST_ID }}
+          GIT_PERSONAL_TOKEN: ${{ secrets.GIT_PERSONAL_TOKEN }}
