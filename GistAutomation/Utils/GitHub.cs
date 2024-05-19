@@ -7,7 +7,7 @@ public static class GitHub
 {
     private const string GIST_UPDATE_HEADER = "gistupdate";
 
-    public static async Task Save(string githubAccessToken, string gistId, string data)
+    public static async Task Save(string fileName, string githubAccessToken, string gistId, string data)
     {
         var credentials = new InMemoryCredentialStore(new Credentials(githubAccessToken));
         var client = new GitHubClient(new ProductHeaderValue(GIST_UPDATE_HEADER), credentials);
@@ -15,7 +15,7 @@ public static class GitHub
         {
             Description = $"List Of Countries With States And Other Useful Information, Updated On {DateTime.UtcNow}",
         };
-        gistUpdate.Files.Add("country_state.json", new GistFileUpdate
+        gistUpdate.Files.Add(fileName, new GistFileUpdate
         {
             Content = data
         });

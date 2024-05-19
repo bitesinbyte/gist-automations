@@ -1,0 +1,662 @@
+[
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol76-101-107.gif",
+        "currencyCode": "Lek",
+        "symbol": "ALL",
+        "currencyName": "Albania Lek"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1547.gif",
+        "currencyCode": "Lek",
+        "symbol": "؋",
+        "currencyName": "Afghanistan Afghani"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "ARS",
+        "symbol": "$",
+        "currencyName": "Argentina Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol402.gif",
+        "currencyCode": "AWG",
+        "symbol": "ƒ",
+        "currencyName": "Aruba Guilder"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "AUD",
+        "symbol": "$",
+        "currencyName": "Australia Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8380.gif",
+        "currencyCode": "AZN",
+        "symbol": "₼",
+        "currencyName": "Azerbaijan Manat"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "BSD",
+        "symbol": "$",
+        "currencyName": "Bahamas Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "BBD",
+        "symbol": "$",
+        "currencyName": "Barbados Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol66-114.gif",
+        "currencyCode": "BYN",
+        "symbol": "Br",
+        "currencyName": "Belarus Ruble"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol66-90-36.gif",
+        "currencyCode": "BZD",
+        "symbol": "BZ$",
+        "currencyName": "Belize Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "BMD",
+        "symbol": "$",
+        "currencyName": "Bermuda Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36-98.gif",
+        "currencyCode": "BOB",
+        "symbol": "$b",
+        "currencyName": "Bolivia Bolíviano"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol75-77.gif",
+        "currencyCode": "BAM",
+        "symbol": "KM",
+        "currencyName": "Bosnia and Herzegovina Convertible Mark"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol80.gif",
+        "currencyCode": "BWP",
+        "symbol": "P",
+        "currencyName": "Botswana Pula"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1083-1074.gif",
+        "currencyCode": "BGN",
+        "symbol": "лв",
+        "currencyName": "Bulgaria Lev"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol82-36.gif",
+        "currencyCode": "BRL",
+        "symbol": "R$",
+        "currencyName": "Brazil Real"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "BND",
+        "symbol": "$",
+        "currencyName": "Brunei Darussalam Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol6107.gif",
+        "currencyCode": "KHR",
+        "symbol": "៛",
+        "currencyName": "Cambodia Riel"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "CAD",
+        "symbol": "$",
+        "currencyName": "Canada Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "KYD",
+        "symbol": "$",
+        "currencyName": "Cayman Islands Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "CLP",
+        "symbol": "$",
+        "currencyName": "Chile Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol165.gif",
+        "currencyCode": "CNY",
+        "symbol": "¥",
+        "currencyName": "China Yuan Renminbi"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "COP",
+        "symbol": "$",
+        "currencyName": "Colombia Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8353.gif",
+        "currencyCode": "CRC",
+        "symbol": "₡",
+        "currencyName": "Costa Rica Colon"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol107-110.gif",
+        "currencyCode": "HRK",
+        "symbol": "kn",
+        "currencyName": "Croatia Kuna"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8369.gif",
+        "currencyCode": "CUP",
+        "symbol": "₱",
+        "currencyName": "Cuba Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol75-269.gif",
+        "currencyCode": "CZK",
+        "symbol": "Kč",
+        "currencyName": "Czech Republic Koruna"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol107-114.gif",
+        "currencyCode": "DKK",
+        "symbol": "kr",
+        "currencyName": "Denmark Krone"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol82-68-36.gif",
+        "currencyCode": "DOP",
+        "symbol": "RD$",
+        "currencyName": "Dominican Republic Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "XCD",
+        "symbol": "$",
+        "currencyName": "East Caribbean Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "EGP",
+        "symbol": "£",
+        "currencyName": "Egypt Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "SVC",
+        "symbol": "$",
+        "currencyName": "El Salvador Colon"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8364.gif",
+        "currencyCode": "EUR",
+        "symbol": "€",
+        "currencyName": "Euro Member Countries"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "FKP",
+        "symbol": "€",
+        "currencyName": "Falkland Islands (Malvinas) Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "FJD",
+        "symbol": "$",
+        "currencyName": "Fiji Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol162.gif",
+        "currencyCode": "GHS",
+        "symbol": "¢",
+        "currencyName": "Ghana Cedi"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "GIP",
+        "symbol": "£",
+        "currencyName": "Gibraltar Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol81.gif",
+        "currencyCode": "GTQ",
+        "symbol": "Q",
+        "currencyName": "Guatemala Quetzal"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "GGP",
+        "symbol": "£",
+        "currencyName": "Guernsey Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "GYD",
+        "symbol": "$",
+        "currencyName": "Guyana Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol76.gif",
+        "currencyCode": "HNL",
+        "symbol": "L",
+        "currencyName": "Honduras Lempira"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "HKD",
+        "symbol": "$",
+        "currencyName": "Hong Kong Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol70-116.gif",
+        "currencyCode": "HUF",
+        "symbol": "Ft",
+        "currencyName": "Hungary Forint"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol70-116.gif",
+        "currencyCode": "HUF",
+        "symbol": "Ft",
+        "currencyName": "Hungary Forint"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol107-114.gif",
+        "currencyCode": "ISK",
+        "symbol": "kr",
+        "currencyName": "Iceland Krona"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbolINR.gif",
+        "currencyCode": "INR",
+        "symbol": "₹",
+        "currencyName": "India Rupee"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol82-112.gif",
+        "currencyCode": "IDR",
+        "symbol": "Rp",
+        "currencyName": "Indonesia Rupiah"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol65020.gif",
+        "currencyCode": "IRR",
+        "symbol": "﷼",
+        "currencyName": "Iran Rial"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "IMP",
+        "symbol": "£",
+        "currencyName": "Isle of Man Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8362.gif",
+        "currencyCode": "ILS",
+        "symbol": "₪",
+        "currencyName": "Israel Shekel"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol74-36.gif",
+        "currencyCode": "JMD",
+        "symbol": "J$",
+        "currencyName": "Jamaica Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol165.gif",
+        "currencyCode": "JPY",
+        "symbol": "¥",
+        "currencyName": "Japan Yen"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "JEP",
+        "symbol": "£",
+        "currencyName": "Jersey Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1083-1074.gif",
+        "currencyCode": "KZT",
+        "symbol": "лв",
+        "currencyName": "Kazakhstan Tenge"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8361.gif",
+        "currencyCode": "KPW",
+        "symbol": "₩",
+        "currencyName": "Korea (North) Won"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8361.gif",
+        "currencyCode": "KRW",
+        "symbol": "₩",
+        "currencyName": "Korea (South) Won"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1083-1074.gif",
+        "currencyCode": "KGS",
+        "symbol": "лв",
+        "currencyName": "Kyrgyzstan Som"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8365.gif",
+        "currencyCode": "LAK",
+        "symbol": "₭",
+        "currencyName": "Laos Kip"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "LBP",
+        "symbol": "£",
+        "currencyName": "Lebanon Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "LRD",
+        "symbol": "$",
+        "currencyName": "Liberia Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1076-1077-1085.gif",
+        "currencyCode": "MKD",
+        "symbol": "ден",
+        "currencyName": "Macedonia Denar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol82-77.gif",
+        "currencyCode": "MYR",
+        "symbol": "RM",
+        "currencyName": "Malaysia Ringgit"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8360.gif",
+        "currencyCode": "MUR",
+        "symbol": "₨",
+        "currencyName": "Mauritius Rupee"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "MXN",
+        "symbol": "$",
+        "currencyName": "Mexico Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8366.gif",
+        "currencyCode": "MNT",
+        "symbol": "₮",
+        "currencyName": "Mongolia Tughrik"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol77-84.gif",
+        "currencyCode": "MZN",
+        "symbol": "MT",
+        "currencyName": "Mozambique Metical"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "NAD",
+        "symbol": "$",
+        "currencyName": "Namibia Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8360.gif",
+        "currencyCode": "NPR",
+        "symbol": "₨",
+        "currencyName": "Nepal Rupee"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol402.gif",
+        "currencyCode": "ANG",
+        "symbol": "ƒ",
+        "currencyName": "Netherlands Antilles Guilder"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "NZD",
+        "symbol": "$",
+        "currencyName": "New Zealand Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol67-36.gif",
+        "currencyCode": "NIO",
+        "symbol": "C$",
+        "currencyName": "Nicaragua Cordoba Symbol"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8358.gif",
+        "currencyCode": "NGN",
+        "symbol": "₦",
+        "currencyName": "Nigeria Naira"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol107-114.gif",
+        "currencyCode": "NOK",
+        "symbol": "kr",
+        "currencyName": "Norway Krone"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol65020.gif",
+        "currencyCode": "OMR",
+        "symbol": "﷼",
+        "currencyName": "Oman Rial"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8360.gif",
+        "currencyCode": "PKR",
+        "symbol": "₨",
+        "currencyName": "Pakistan Rupee"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol66-47-46.gif",
+        "currencyCode": "PAB",
+        "symbol": "B/.",
+        "currencyName": "Panama Balboa"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol71-115.gif",
+        "currencyCode": "PYG",
+        "symbol": "Gs",
+        "currencyName": "Paraguay Guarani"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol83-47-46.gif",
+        "currencyCode": "PEN",
+        "symbol": "S/.",
+        "currencyName": "Peru Sol"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8369.gif",
+        "currencyCode": "PHP",
+        "symbol": "₱",
+        "currencyName": "Philippines Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol122-322.gif",
+        "currencyCode": "PLN",
+        "symbol": "zł",
+        "currencyName": "Poland Zloty"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol65020.gif",
+        "currencyCode": "QAR",
+        "symbol": "﷼",
+        "currencyName": "Qatar Riyal"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol108-101-105.gif",
+        "currencyCode": "RON",
+        "symbol": "lei",
+        "currencyName": "Romania Leu"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8381.gif",
+        "currencyCode": "RUB",
+        "symbol": "₽",
+        "currencyName": "Russia Ruble"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "SHP",
+        "symbol": "£",
+        "currencyName": "Saint Helena Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol65020.gif",
+        "currencyCode": "SAR",
+        "symbol": "﷼",
+        "currencyName": "Saudi Arabia Riyal"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1044-1080-1085-46.gif",
+        "currencyCode": "RSD",
+        "symbol": "Дин.",
+        "currencyName": "Serbia Dinar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8360.gif",
+        "currencyCode": "SCR",
+        "symbol": "₨",
+        "currencyName": "Seychelles Rupee"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "SGD",
+        "symbol": "$",
+        "currencyName": "Singapore Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "SBD",
+        "symbol": "$",
+        "currencyName": "Solomon Islands Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol83.gif",
+        "currencyCode": "SOS",
+        "symbol": "S",
+        "currencyName": "Somalia Shilling"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol82.gif",
+        "currencyCode": "ZAR",
+        "symbol": "R",
+        "currencyName": "South Africa Rand"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8360.gif",
+        "currencyCode": "LKR",
+        "symbol": "₨",
+        "currencyName": "Sri Lanka Rupee"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol107-114.gif",
+        "currencyCode": "SEK",
+        "symbol": "kr",
+        "currencyName": "Sweden Krona"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol67-72-70.gif",
+        "currencyCode": "CHF",
+        "symbol": "CHF",
+        "currencyName": "Switzerland Franc"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "SRD",
+        "symbol": "$",
+        "currencyName": "Suriname Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "SYP",
+        "symbol": "£",
+        "currencyName": "Syria Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol78-84-36.gif",
+        "currencyCode": "TWD",
+        "symbol": "NT$",
+        "currencyName": "Taiwan New Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol3647.gif",
+        "currencyCode": "THB",
+        "symbol": "฿",
+        "currencyName": "Thailand Baht"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol84-84-36.gif",
+        "currencyCode": "TTD",
+        "symbol": "TT$",
+        "currencyName": "Trinidad and Tobago Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbolTRY.gif",
+        "currencyCode": "TRY",
+        "symbol": "₺",
+        "currencyName": "Turkey Lira"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "TVD",
+        "symbol": "$",
+        "currencyName": "Tuvalu Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8372.gif",
+        "currencyCode": "UAH",
+        "symbol": "₴",
+        "currencyName": "Ukraine Hryvnia"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol163.gif",
+        "currencyCode": "GBP",
+        "symbol": "£",
+        "currencyName": "United Kingdom Pound"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36.gif",
+        "currencyCode": "USD",
+        "symbol": "$",
+        "currencyName": "United States Dollar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol36-85.gif",
+        "currencyCode": "UYU",
+        "symbol": "$U",
+        "currencyName": "Uruguay Peso"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol1083-1074.gif",
+        "currencyCode": "UZS",
+        "symbol": "лв",
+        "currencyName": "Uzbekistan Som"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol66-115.gif",
+        "currencyCode": "VEF",
+        "symbol": "Bs",
+        "currencyName": "Venezuela Bolívar"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol8363.gif",
+        "currencyCode": "VND",
+        "symbol": "₫",
+        "currencyName": "Viet Nam Dong"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol65020.gif",
+        "currencyCode": "YER",
+        "symbol": "﷼",
+        "currencyName": "Yemen Rial"
+    },
+    {
+        "symbolImage": "https://www.xe.com/symbols-page/symbols/curSymbol90-36.gif",
+        "currencyCode": "ZWD",
+        "symbol": "Z$",
+        "currencyName": "Zimbabwe Dollar"
+    }
+]

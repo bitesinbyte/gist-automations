@@ -1,3 +1,4 @@
+using System.Net;
 using ExcelDataReader;
 using GistAutomation.Records;
 
@@ -7,13 +8,22 @@ public class GeoName
 {
     private const string COUNTRY_INFO_URL = "https://download.geonames.org/export/dump/countryInfo.txt";
     private const string ADMIN_CODES_URL = "https://download.geonames.org/export/dump/admin1CodesASCII.txt";
+    private const string COUNTRY_FLAG_URL = "http://img.geonames.org/flags/x/{0}.gif";
+
+    public async static Task<(bool DoesAvailable, string Url)> DoesFlagImageAvailable(string iso2Code)
+    {
+        var client = new HttpClient();
+        var url = string.Format(COUNTRY_FLAG_URL, iso2Code.ToLower());
+        var response = await client.GetAsync(url);
+        return (response.StatusCode == HttpStatusCode.OK, url);
+    }
+
     public async static Task<List<Country>> GetCountries()
     {
         var listOfCountry = new List<Country>();
 
         var countryInfo = await GetCountryInfo();
         var admin1 = await GetAdmin1Codes();
-
 
         foreach (var country in countryInfo)
         {
@@ -38,6 +48,13 @@ public class GeoName
                 CountryCodeAlpha3 = country.ISOAlpha3,
                 StateProvinces = stateProvinces
             };
+
+            var (DoesAvailable, Url) = await DoesFlagImageAvailable(country.ISOAlpha2);
+            if (DoesAvailable)
+            {
+                tempCountry.Flag = Url;
+            }
+
             listOfCountry.Add(tempCountry);
         }
         return listOfCountry;
