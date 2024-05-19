@@ -29,7 +29,8 @@ jobs:
           GIT_PERSONAL_TOKEN: ${{ secrets.GIT_PERSONAL_TOKEN }}
 
       - name: run sync-currency
-        run: dotnet run --project GistAutomation "sync-currency"
+        working-directory: ./GistAutomation
+        run: dotnet run "sync-currency"
         env:
           COUNTRY_STATE_GIST_ID: ${{ secrets.COUNTRY_STATE_GIST_ID }}
           CURRENCY_GIST_ID: ${{ secrets.CURRENCY_GIST_ID }}
