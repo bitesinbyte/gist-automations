@@ -23,6 +23,14 @@ jobs:
 
       - name: run sync-country
         run: dotnet run --project GistAutomation "sync-country"
+        env:
+          COUNTRY_STATE_GIST_ID: ${{ secrets.COUNTRY_STATE_GIST_ID }}
+          CURRENCY_GIST_ID: ${{ secrets.CURRENCY_GIST_ID }}
+          GIT_PERSONAL_TOKEN: ${{ secrets.GIT_PERSONAL_TOKEN }}
 
       - name: run sync-currency
         run: dotnet run --project GistAutomation "sync-currency"
+        env:
+          COUNTRY_STATE_GIST_ID: ${{ secrets.COUNTRY_STATE_GIST_ID }}
+          CURRENCY_GIST_ID: ${{ secrets.CURRENCY_GIST_ID }}
+          GIT_PERSONAL_TOKEN: ${{ secrets.GIT_PERSONAL_TOKEN }}
