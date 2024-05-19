@@ -19,6 +19,12 @@ public record Country
     [JsonPropertyName("currency")]
     public string Currency { get; set; } = "";
 
+    [JsonPropertyName("flag")]
+    public string Flag { get; set; } = "";
+
+    [JsonPropertyName("symbol")]
+    public string Symbol { get; set; } = "";
+
     [JsonPropertyName("stateProvinces")]
     public List<StateProvince> StateProvinces { get; set; } = new List<StateProvince>();
 }
