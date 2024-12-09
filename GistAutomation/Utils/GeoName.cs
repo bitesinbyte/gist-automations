@@ -8,7 +8,7 @@ public class GeoName
 {
     private const string COUNTRY_INFO_URL = "https://download.geonames.org/export/dump/countryInfo.txt";
     private const string ADMIN_CODES_URL = "https://download.geonames.org/export/dump/admin1CodesASCII.txt";
-    private const string COUNTRY_FLAG_URL = "http://img.geonames.org/flags/x/{0}.gif";
+    private const string COUNTRY_FLAG_URL = "https://www.geonames.org/flags/x/{0}.gif";
 
     public async static Task<(bool DoesAvailable, string Url)> DoesFlagImageAvailable(string iso2Code)
     {
