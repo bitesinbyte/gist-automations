@@ -9,12 +9,6 @@ jobs:
   fetch-az-locations:
     runs-on: ubuntu-latest
     steps:
-      # Log in to Azure using your service principal credentials.
-      - name: Azure Login
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-
       # Fetch Azure physical locations in JSON format and save to az_locations.json.
       - name: Fetch Azure Physical Locations
         id: fetch
