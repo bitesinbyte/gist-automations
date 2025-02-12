@@ -24,17 +24,19 @@ jobs:
             --output json > az_locations.json
           cat az_locations.json
 
-      # Set a timestamp in the format MM/DD/YYYY HH:MM:SS.
+      # Generate a timestamp in the format MM/DD/YYYY HH:MM:SS.
       - name: Set Timestamp
         id: timestamp
         run: echo "timestamp=$(date '+%m/%d/%Y %H:%M:%S')" >> $GITHUB_OUTPUT
 
-      # Update the existing public gist with the new JSON file.
+      # Update the existing public gist with the new JSON file using the new gist ID.
       - name: Update Gist with Azure Locations JSON
-        uses: peter-evans/create-gist@v2
-        with:
-          gist_id: 5d8ea60ef712b63e0c671454f2d0852d
-          files: |
-            az_locations.json
-          description: "Azure Locations, Updated On ${{ steps.timestamp.outputs.timestamp }}"
-          public: true
+        run: |
+          # Use jq to safely read the file content as a JSON string
+          content=$(jq -Rs . < az_locations.json)
+          description="Azure Locations, Updated On ${{ steps.timestamp.outputs.timestamp }}"
+          curl -X PATCH \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"description\": \"$description\", \"files\": {\"az_locations.json\": {\"content\": $content}}}" \
+            https://api.github.com/gists/5d8ea60ef712b63e0c671454f2d0852d
