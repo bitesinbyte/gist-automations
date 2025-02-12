@@ -1,0 +1,40 @@
+name: Fetch Azure Locations Monthly
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'   # Runs at 00:00 UTC on the 1st day of every month
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  fetch-az-locations:
+    runs-on: ubuntu-latest
+    steps:
+      # Log in to Azure using your service principal credentials.
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # Fetch Azure physical locations in JSON format and save to az_locations.json.
+      - name: Fetch Azure Physical Locations
+        id: fetch
+        run: |
+          az account list-locations \
+            --query "[?metadata.regionType=='Physical'].{name:name, displayName:displayName, metadata:{regionCategory: metadata.regionCategory, regionType: metadata.regionType}, regionalDisplayName:regionalDisplayName}" \
+            --output json > az_locations.json
+          cat az_locations.json
+
+      # Set a timestamp in the format MM/DD/YYYY HH:MM:SS.
+      - name: Set Timestamp
+        id: timestamp
+        run: echo "timestamp=$(date '+%m/%d/%Y %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      # Update the existing public gist with the new JSON file.
+      - name: Update Gist with Azure Locations JSON
+        uses: peter-evans/create-gist@v2
+        with:
+          gist_id: 5d8ea60ef712b63e0c671454f2d0852d
+          files: |
+            az_locations.json
+          description: "Azure Locations, Updated On ${{ steps.timestamp.outputs.timestamp }}"
+          public: true
